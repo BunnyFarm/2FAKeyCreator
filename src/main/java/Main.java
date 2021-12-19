@@ -9,7 +9,7 @@ public class Main {
 		byte[] bytes = new byte[20];
 		random.nextBytes(bytes);
 		Base32 base32 = new Base32();
-		System.out.println(base32.encodeToString(bytes));
+		System.out.println("Key: " + base32.encodeToString(bytes));
     }
 
 }
